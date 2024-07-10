@@ -28,26 +28,26 @@ button {
     border-radius: 5px;
 }
 
-.buttonConsult {
+.button-consult {
     width: 225px;
     height: 42px;
     font-size: 13px;
     box-shadow: 0 20px 40px 0 #CFA55B66;
 }
 
-.buttonSell {
+.button-sell {
     width: 350px;
     height: 80px;
     font-size: 16px;
     box-shadow: 0 0 60px 0 #FFC25680;
 }
 
-.buttonOffer {
+.button-offer {
     width: 420px;
     height: 85px;
 }
 
-.phoneNumber {
+.phone-number {
     width: 350px;
     height: 80px;
 }
@@ -84,7 +84,7 @@ h1 {
     font-style: normal; */
 }
 
-.realEstate {
+.real-estate {
     font-family: "MuseoSansCyrl", sans-serif;
     font-weight: bold;
     font-style: normal;
@@ -111,7 +111,7 @@ h1 {
     color: #FFFFFF;
 }
 
-.footerNumber {
+.footer-number {
     color: #424242;
 }
 .ad {
@@ -132,7 +132,7 @@ h1 {
     font-size: 40px;
 }
 
-.achieveList {
+.achieve-list {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -149,7 +149,7 @@ h1 {
     box-shadow: 0 0 15px 16px #FFC25680;
 } */
 
-.achieveList::before {
+.achieve-list::before {
     content: '\2022';
     color: #CFA55B;
     font-size: 2.2em;
@@ -157,7 +157,7 @@ h1 {
     box-shadow: 0 0px 15px 16px #CFA55B;
 }
 
-.sellingPoint {
+.selling-point {
     font-family: "MuseoSansCyrl", sans-serif;
     font-weight: bold;
     font-style: normal;
@@ -166,7 +166,7 @@ h1 {
     text-align: center;
 }
 
-.colorHighlight {
+.color-highlight {
     color: #CFA55B;
 }
 
@@ -192,15 +192,15 @@ h1 {
     display: flex;
 }
 
-.logoContainer {
+.logo-container {
     flex-direction: column;
 }
 
-.countContainer {
+.count-container {
     flex-direction: column;
 }
 
-.sellContainer {
+.sell-container {
     border: 1px solid #CFA55B;
     border-radius: 5px;
     padding: 5px;
@@ -208,12 +208,12 @@ h1 {
     width: fit-content;
 }
 
-.achieveContainer {
+.achieve-container {
     flex-direction: row;
     /* justify-content: center; */
 }
 
-.footerContainer {
+.footer-container {
     flex-direction: row;
     justify-content: space-between;
 }

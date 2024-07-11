@@ -219,12 +219,13 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #cccccc;
 }
 
 .help-container {
+    position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
     width: 1320px;
 }
 
@@ -341,10 +342,8 @@ h1 {
 
 .ellipse-2 {
     position: absolute;
-     top: 1070.49px;
-     bottom: 0;
-     left: 1355.78px;
-     right: 0;
+     top: 0px;
+     right: -359.67px;
     width: 719.33px;
     height: 719.33px;
     border: 3px solid #CFA55B;
@@ -355,10 +354,8 @@ h1 {
 
 .ellipse-22 {
     position: absolute;
-     top: 963px;
-     bottom: 0;
-     left: 1233px;
-     right: 0;
+     top: -122.17px;
+     right: -481.83px;
     width: 963.67px;    
     height: 963.67px;
     border: 3px solid #CFA55B;
@@ -369,10 +366,8 @@ h1 {
 
 .ellipse-222 {
     position: absolute;
-     top: 833px;
-     bottom: 0;
-     left: 1116px;
-     right: 0;
+     top: -260.33px;
+     right: -612px;
     width: 1224px;
     height: 1224px;
     border: 3px solid #CFA55B;
@@ -383,38 +378,41 @@ h1 {
 
 .ellipse-1 {
     position:absolute;
-     top: 3102.94px;
-     left: 1604.21px;
+     top: 0;
+     left: 0;
     width: 399.63px;
     height: 399.63px;
     border: 3px solid #FFFFFF;
     border-radius: 50%;
     opacity: 25%;
     z-index: 1;
+    transform: translate(1320px, -80px);
 }
 
 .ellipse-11 {
     position:absolute;
-     top: 3043.31px;
-     left: 1536.34px;
+     top: -67.87px;
+     left: -67.87px;
     width: 535.37px;
     height: 535.37px;
     border: 3px solid #FFFFFF;
     border-radius: 50%;
     opacity: 18%;
     z-index: 1;
+    transform: translate(1320px, -80px);
 }
 
 .ellipse-111 {
     position:absolute;
-     top: 2971px;
-     left: 1471px;
+     top: -140.16px;
+     left: -140.16px;
     width: 680px;
     height: 680px;
     border: 3px solid #FFFFFF;
     border-radius: 50%;
     opacity: 10%;
     z-index: 1;
+    transform: translate(1320px, -80px);
 }
 
 /* .dot {

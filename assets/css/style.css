@@ -45,6 +45,14 @@ button {
     margin: 0;
     padding: 0;
 }
+
+.icon-mark {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
 .image-container {
     position: relative;
     display: inline-block;
@@ -116,6 +124,7 @@ button {
 .button-offer {
     width: 420px;
     height: 85px;
+    box-shadow: 0 40px 40px 0 #CFA55B66;
 }
 
 .phone-number {
@@ -126,6 +135,9 @@ button {
 .button-callback {
     width: 298px;
     height: 73px;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 60px 0 #FFC25666;
 }
 
 .header {
@@ -137,6 +149,7 @@ button {
     justify-content: center;
     align-content: center;
     padding-top: 64px;
+    margin-bottom: 80px;
 }
 
 .header::before {
@@ -164,6 +177,17 @@ button {
     width: 1320px;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    position: relative;
+    width: 1320px;
+}
+
 .top-container {
     display: flex;
     justify-content: space-between;
@@ -172,7 +196,22 @@ button {
 }
 
 .help {
-    background-image: url("../images/6f160921275524839be0f8779df9fac4.jpg");
+    background-image: 
+        linear-gradient(#31200200, #62491C66),
+        url("../images/6f160921275524839be0f8779df9fac4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 458px;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 120px; */
+    align-items: center;
+}
+
+.help-container {
+    position: relative;
+    width: 1320px;
 }
 
 h1 {
@@ -207,6 +246,7 @@ h1 {
     font-style: normal;
     font-size: 18px;
     color: #FFFFFF;
+    margin-bottom: 40px;
 }
 
 .number {
@@ -227,6 +267,7 @@ h1 {
     font-size: 36px;
     color: #FFFFFF;
     text-align: left;
+    margin-bottom: 40px;
 }
 
 .incom {
@@ -245,6 +286,13 @@ h1 {
     font-size: 16px;
     color: #FFFFFF;
     margin-left: 32px;   
+}
+
+.baza-list {
+    font-family: "MuseoSansCyrl", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
 }
 
 .dot {
@@ -379,6 +427,7 @@ h1 {
     font-size: 36px;
     color: #424242;
     text-align: center;
+    margin-bottom: 200px;
 }
 
 .color-highlight {
@@ -392,6 +441,7 @@ h1 {
     font-style: normal;
     font-size: 30px;
     color: #454545;
+    margin-bottom: 50px;
 }
 
 .addres {
@@ -400,7 +450,6 @@ h1 {
     font-style: normal;
     font-size: 14px;
     color: #424242;
-    margin: 20px;
 }
 
 
@@ -440,6 +489,37 @@ h1 {
     display: flex;
     align-items: center;
 }
+
+.baza-list-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 44px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.card-container-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.input-button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .baza-list {
+    display: flex;
+    flex-direction: column;
+} */
 
 .footer-container {
     display: flex;

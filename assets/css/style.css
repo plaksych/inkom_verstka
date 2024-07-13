@@ -94,7 +94,7 @@ button {
     font-size: 18px;
     color: #787878;
     padding-left: 40px;
-    width: 553px;
+    width: 513px;
     height: 73px;
     border-radius: 10px;
     background-color: #FFFFFF;
@@ -134,10 +134,10 @@ button {
     box-shadow: 0 40px 40px 0 #CFA55B66;
 }
 
-.phone-number {
-    width: 350px;
+/* .phone-number {
+    width: 513px;
     height: 80px;
-}
+} */
 
 .button-callback {
     width: 298px;

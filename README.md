@@ -7,7 +7,7 @@
 * Use HTML and CSS to structure and style the product grid layout.
 * Utilize appropriate CSS techniques (e.g., flexbox).
 * Ensure consistent spacing, typography, and overall design aesthetics.
-* 
+
 ### Additional Considerations:
 
 * Apply best practices for accessibility and ensure the layout is screen reader-friendly.

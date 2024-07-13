@@ -156,7 +156,7 @@ button {
 .header-bg {
     position: relative;
     overflow: hidden;
-    width: 1920px;
+    width: 100vw;
     height: 989px;
     display: flex;
     justify-content: center;
@@ -221,7 +221,8 @@ button {
         url("../images/6f160921275524839be0f8779df9fac4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1920px;
+    background-position: center;
+    width: 100vw;
     height: 458px;
     display: flex;
     justify-content: center;
@@ -347,7 +348,7 @@ h1 {
     height: 1224px;
 } */
 
-.ellipse-2 {
+/* .ellipse-2 {
     position: absolute;
      top: 0px;
      right: -359.67px;
@@ -420,7 +421,7 @@ h1 {
     opacity: 10%;
     z-index: 1;
     transform: translate(1320px, -80px);
-}
+} */
 
 /* .dot {
     width: 14px;

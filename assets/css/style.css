@@ -224,9 +224,9 @@ button {
         url('../icons/ellipse2.svg'), 
         linear-gradient(#31200200, #62491C66),
         url("../images/6f160921275524839be0f8779df9fac4.jpg");
-    background-size: 680px 680px, cover, cover;
+    background-size: auto, cover, cover;
     background-repeat: no-repeat;
-    background-position: 110% 40%, center, center;
+    background-position: 100% 40%, center, center;
     width: 100vw;
     height: 458px;
     display: flex;
